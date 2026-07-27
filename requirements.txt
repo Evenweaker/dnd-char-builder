@@ -1,0 +1,3 @@
+reportlab>=4.0
+# Optional, only needed to build a standalone executable:
+# pyinstaller>=6.0

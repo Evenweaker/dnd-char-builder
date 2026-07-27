@@ -1,0 +1,18 @@
+[project]
+name = "dnd-char-builder"
+version = "1.0.0"
+description = "Terminal D&D 5e character builder (PHB + Essentials Kit)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Evenweaker" }]
+dependencies = [
+  "reportlab>=4.0",
+]
+
+[project.scripts]
+dnd-char-builder = "main:main_menu"
+
+[tool.setuptools]
+py-modules = ["main"]
+packages = ["core", "data", "ui", "export"]

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# App user data (don't publish personal characters)
+characters/*.json
+drafts/*.json
+exports/*
+!exports/.gitkeep
+!characters/.gitkeep
+!drafts/.gitkeep
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+*.local
